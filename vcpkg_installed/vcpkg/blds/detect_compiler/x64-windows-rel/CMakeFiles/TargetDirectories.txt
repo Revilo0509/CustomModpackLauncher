@@ -1,0 +1,2 @@
+D:/VisualStudioProjects/CustomModpackLauncher/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/edit_cache.dir
+D:/VisualStudioProjects/CustomModpackLauncher/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/rebuild_cache.dir

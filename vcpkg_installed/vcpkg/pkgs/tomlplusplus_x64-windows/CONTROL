@@ -1,0 +1,8 @@
+Package: tomlplusplus
+Version: 3.4.0
+Port-Version: 1
+Depends: vcpkg-cmake-config, vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b6ffd2f9b9875336ca6fcb0e623bddfb2e0cce9ccd0e326f9dae37f2f7d55c70
+Description: Header-only TOML config file parser and serializer for modern C++.

@@ -571,6 +571,10 @@ set(TECHNIC_SOURCES
     modplatform/technic/TechnicPackProcessor.cpp
 )
 
+set(TEAM_CIVITAS_SOURCES
+    ## TODO: Add TeamCivitas sources when available
+)
+
 set(ATLAUNCHER_SOURCES
     modplatform/atlauncher/ATLPackIndex.cpp
     modplatform/atlauncher/ATLPackIndex.h
@@ -771,6 +775,7 @@ set(LOGIC_SOURCES
     ${MODRINTH_SOURCES}
     ${PACKWIZ_SOURCES}
     ${TECHNIC_SOURCES}
+    ${TEAM_CIVITAS_SOURCES}
     ${ATLAUNCHER_SOURCES}
 )
 
@@ -1029,6 +1034,11 @@ SET(LAUNCHER_SOURCES
     ui/pages/modplatform/technic/TechnicPage.cpp
     ui/pages/modplatform/technic/TechnicPage.h
 
+    ui/pages/modplatform/team_civitas/TeamCivitasPage.cpp
+    ui/pages/modplatform/team_civitas/TeamCivitasPage.h
+    ui/pages/modplatform/team_civitas/TeamCivitasModel.cpp
+    ui/pages/modplatform/team_civitas/TeamCivitasModel.h
+
     ui/pages/modplatform/ImportPage.cpp
     ui/pages/modplatform/ImportPage.h
 
@@ -1037,6 +1047,9 @@ SET(LAUNCHER_SOURCES
 
     ui/pages/modplatform/modrinth/ModrinthResourcePages.cpp
     ui/pages/modplatform/modrinth/ModrinthResourcePages.h
+
+    ui/pages/modplatform/team_civitas/TeamCivitasResourcePages.cpp
+    ui/pages/modplatform/team_civitas/TeamCivitasResourcePages.h
 
     # GUI - dialogs
     ui/dialogs/AboutDialog.cpp
@@ -1231,6 +1244,7 @@ qt_wrap_ui(LAUNCHER_UI
     ui/pages/modplatform/OptionalModDialog.ui
     ui/pages/modplatform/modrinth/ModrinthPage.ui
     ui/pages/modplatform/technic/TechnicPage.ui
+    ui/pages/modplatform/team_civitas/TeamCivitasPage.ui
     ui/widgets/CustomCommands.ui
     ui/widgets/EnvironmentVariables.ui
     ui/widgets/InfoFrame.ui

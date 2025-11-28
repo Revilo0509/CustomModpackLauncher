@@ -1,0 +1,8 @@
+Package: libqrencode
+Version: 4.1.1
+Port-Version: 3
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9bba425b79d0d7f40e8fc09958821a073781902dfd1f77db8b9a8db406f581c7
+Description: libqrencode - a fast and compact QR Code encoding library

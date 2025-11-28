@@ -1,0 +1,43 @@
+Package: libarchive
+Version: 3.8.2
+Depends: vcpkg-cmake, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: daef86ff2490cd9dd2f9ae78c3606faef18623dddccc477a88d5397ef345c979
+Description: Library for reading and writing streaming archives
+Default-Features: bzip2, crypto, lz4, lzma, xar, zstd
+
+Package: libarchive
+Feature: bzip2
+Depends: bzip2
+Architecture: x64-windows
+Multi-Arch: same
+Description: BZip2 support
+
+Package: libarchive
+Feature: lz4
+Depends: lz4
+Architecture: x64-windows
+Multi-Arch: same
+Description: Lz4 support
+
+Package: libarchive
+Feature: lzma
+Depends: liblzma
+Architecture: x64-windows
+Multi-Arch: same
+Description: Lzma support
+
+Package: libarchive
+Feature: lzo
+Depends: lzo
+Architecture: x64-windows
+Multi-Arch: same
+Description: Lzo support
+
+Package: libarchive
+Feature: zstd
+Depends: zstd
+Architecture: x64-windows
+Multi-Arch: same
+Description: Zstd support
